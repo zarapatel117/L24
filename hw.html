@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Object and Array with Alerts</title>
+</head>
+<body>
+    <script>
+        var student = {
+            name: "Aayesha",
+            age: 20,
+            course: "Web Development"
+        };
+
+        alert("Student Name: " + student.name);
+        alert("Student Age: " + student.age);
+        alert("Student Course: " + student.course);
+
+        var fruits = ["Apple", "Banana", "Mango", "Orange"];
+
+        alert("First Fruit: " + fruits[0]);
+        alert("Second Fruit: " + fruits[1]);
+
+        alert("All Fruits: " + fruits.join(", "));
+
+        fruits.pop();
+
+        alert("Fruits after pop: " + fruits.join(", "));
+    </script>
+</body>
+</html>
